@@ -1,0 +1,43 @@
+footer{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 50px 50px 50px;
+    grid-template-areas:
+     "div1 div2 div5"
+     "div1 div3 div5"
+     "div1 div4 div5";
+}
+.divFooter1{
+    grid-area: div1;
+    background-color: aquamarine;
+    height: 100%;
+    width: 100%;
+}
+
+.divFooter2{
+    grid-area: div2;
+    background-color: orange;
+    height: 100%;
+    width: 100%;
+}
+
+.divFooter3{
+    grid-area: div3;
+    background-color: orchid;
+    height: 100%;
+    width: 100%;
+}
+
+.divFooter4{
+    grid-area:div4;
+    background-color: olivedrab;
+    height: 100%;
+    width: 100%;
+}
+
+.divFooter5{
+    grid-area: div5;
+    background-color: greenyellow;
+    height: 100%;
+    width: 100%;
+}

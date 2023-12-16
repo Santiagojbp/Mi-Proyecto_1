@@ -1,0 +1,178 @@
+header {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 140px 22px;
+  grid-template-areas: "logo" "navBar";
+  transition: all 400ms ease;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  background-color: #dcc382; }
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: logo;
+  height: 100%;
+  width: 100%; }
+
+.logo {
+  height: 160px;
+  width: 590px; }
+
+nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  grid-area: navBar;
+  width: 100%; }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #d7d3d1;
+    height: 100%;
+    width: 100%; }
+    nav ul li {
+      display: flex;
+      list-style: none;
+      margin-right: 1%;
+      justify-content: center;
+      background-color: #d7d3d1;
+      width: 50px;
+      transition: all 400ms ease; }
+      nav ul li a {
+        text-decoration: none;
+        color: #ac7c6a; }
+    nav ul li:hover {
+      transition: all 400ms ease;
+      background-color: #969290;
+      width: 70px; }
+      nav ul li:hover a {
+        color: white; }
+
+.publicidad {
+  background-color: #d8eead;
+  height: 300px; }
+
+.contenido {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px;
+  grid-template-areas: "divC1 divC2" "divC1 divC2" "divC1 divC3" "divC5 divC3" "divC5 divC3" "divC5 divC4";
+  background-color: #ffce84; }
+
+.divContenido1 {
+  grid-area: divC1;
+  background-color: yellowgreen; }
+
+.divContenido2 {
+  grid-area: divC2;
+  background-color: aqua; }
+
+.divContenido3 {
+  grid-area: divC3;
+  background-color: goldenrod; }
+
+.divContenido4 {
+  grid-area: divC4;
+  background-color: red; }
+
+.divContenido5 {
+  grid-area: divC5;
+  background-color: green; }
+
+.gridNosotros {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 300px 300px;
+  grid-template-areas: "divN1 divN2" "divN1 divN3"; }
+
+.divNosotros1 {
+  display: flex;
+  grid-area: divN1;
+  background-color: #c88686;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px; }
+
+.divNosotros2 {
+  display: flex;
+  grid-area: divN2;
+  background-image: linear-gradient(yellowgreen, orange);
+  justify-content: center;
+  align-items: center;
+  font-size: 40px; }
+
+.divNosotros3 {
+  display: flex;
+  grid-area: divN3;
+  background-color: aquamarine;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px; }
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite; }
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  form fieldset {
+    border-color: orangered;
+    color: orange;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px; }
+    form fieldset input {
+      border-color: orange;
+      border-radius: 10px 10px 10px 10px;
+      padding: 4px; }
+    form fieldset input:focus-visible {
+      border-color: orangered; }
+
+footer {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 50px 50px 50px;
+  grid-template-areas: "div1 div2 div5" "div1 div3 div5" "div1 div4 div5"; }
+
+.divFooter1 {
+  grid-area: div1;
+  background-color: aquamarine;
+  height: 100%;
+  width: 100%; }
+
+.divFooter2 {
+  grid-area: div2;
+  background-color: orange;
+  height: 100%;
+  width: 100%; }
+
+.divFooter3 {
+  grid-area: div3;
+  background-color: orchid;
+  height: 100%;
+  width: 100%; }
+
+.divFooter4 {
+  grid-area: div4;
+  background-color: olivedrab;
+  height: 100%;
+  width: 100%; }
+
+.divFooter5 {
+  grid-area: div5;
+  background-color: greenyellow;
+  height: 100%;
+  width: 100%; }
+
+* {
+  padding: 0px;
+  margin: 0px; }

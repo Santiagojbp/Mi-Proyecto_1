@@ -1,0 +1,33 @@
+.gridNosotros {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 300px 300px;
+  grid-template-areas:
+    "divN1 divN2"
+    "divN1 divN3";
+}
+
+.divNosotros1 {
+  display: flex;
+  grid-area: divN1;
+  background-color: rgb(200, 134, 134);
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.divNosotros2 {
+  display: flex;
+  grid-area: divN2;
+  background-image: linear-gradient(yellowgreen, orange);
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.divNosotros3 {
+  display: flex;
+  grid-area: divN3;
+  background-color: aquamarine;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}

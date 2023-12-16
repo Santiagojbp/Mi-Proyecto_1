@@ -1,0 +1,38 @@
+.publicidad{
+    background-color: rgb(216, 238, 173);
+    height: 300px;
+}
+.contenido{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    grid-template-areas: 
+    "divC1 divC2"
+    "divC1 divC2"
+    "divC1 divC3"
+    "divC5 divC3"
+    "divC5 divC3"
+    "divC5 divC4";
+    background-color:rgb(255, 206, 132);
+}
+
+.divContenido1{
+ grid-area: divC1;
+ background-color: yellowgreen;
+}
+.divContenido2{
+ grid-area: divC2; 
+ background-color: aqua;  
+}
+.divContenido3{
+  grid-area: divC3;  
+  background-color: goldenrod;
+}
+.divContenido4{
+  grid-area: divC4; 
+  background-color: red; 
+}
+.divContenido5{
+  grid-area: divC5;
+  background-color: green;  
+}
